@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Outfit:wght@100..900&display=swap");
+
+:root {
+  font-family: "Geist", sans-serif;
+
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  color-scheme: light dark;
+  color: #eae5ec;
+  background-color: var(--backgroundColor);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  --accentColor: #5eead4;
+  --backgroundColor: #0a0e17;
+  --vh: 100vh;
+  --vh: 100svh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Geist", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--accentColor);
+}
+
+main {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.main-active {
+  opacity: 0;
+  animation: fadeIn 1s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  height: auto;
+  background-color: #050810;
+  flex-grow: 1;
+  --cWidth: calc(100% - 30px);
+  --cMaxWidth: 1920px;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.main-body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.container-main {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.container1 {
+  width: var(--cWidth);
+  height: var(--vh);
+  margin: auto;
+  position: relative;
+}
+
+.split-line {
+  overflow: hidden;
+}
+
+.split-h2 {
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+.techstack-minimal {
+  width: 100%;
+  position: relative;
+  min-height: var(--vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  padding: 80px 20px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: -100px;
+}
+
+.techstack-minimal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  width: 100%;
+  justify-items: center;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+  opacity: 0.8;
+}
+
+.tech-item:hover {
+  transform: translateY(-8px);
+  opacity: 1;
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.4));
+}
+
+.tech-icon {
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.techstack-minimal h2 {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(90deg, #89d6ff 0%, #f0f4ff 45%, #d9b3ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 0px 12px rgba(130, 176, 255, 0.25));
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    --cWidth: 94%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .techstack-minimal h2 {
+    font-size: 36px;
+  }
+  
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  
+  .tech-icon {
+    font-size: 60px;
+  }
+}
+
+/* Certifications Section */
+.certifications-section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  padding: 100px 20px;
+  margin: auto;
+}
+
+.certifications-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.certifications-section h2 {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(90deg, #89d6ff 0%, #f0f4ff 45%, #d9b3ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 0px 12px rgba(130, 176, 255, 0.25));
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  width: 100%;
+}
+
+.cert-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 0 20px rgba(137, 214, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.cert-icon {
+  font-size: 48px;
+  color: #ffffff;
+  opacity: 0.9;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.cert-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cert-info h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.cert-issuer {
+  font-size: 16px;
+  color: #a0a0a0;
+  margin: 0;
+  font-weight: 400;
+}
+
+.cert-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #89d6ff;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 8px;
+  transition: color 0.2s ease, opacity 0.2s ease;
+  opacity: 0.85;
+}
+
+.cert-link:hover {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.cert-link .link-icon {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .certifications-section h2 {
+    font-size: 36px;
+  }
+  
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cert-card {
+    padding: 30px 20px;
+  }
+}
