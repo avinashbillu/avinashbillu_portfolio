@@ -15,7 +15,7 @@ const educationData = [
     grade: "CGPA: 9.6",
     period: "2020 – 2022",
     location: "Gudur, Andhra Pradesh",
-    icon: <FaSchool />,
+    icon: <FaGraduationCap />,
   },
   {
     institution: "Sree Vivekananda High School",
@@ -23,7 +23,7 @@ const educationData = [
     grade: "CGPA: 9.8",
     period: "2019 – 2020",
     location: "Gudur, Andhra Pradesh",
-    icon: <FaGraduationCap />,
+    icon: <FaSchool />,
   },
 ];
 
