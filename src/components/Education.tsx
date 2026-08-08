@@ -4,7 +4,7 @@ const educationData = [
   {
     institution: "Vemu Institute of Technology",
     degree: "Bachelor of Technology in Computer Science",
-    grade: "CGPA: 8.9",
+    grade: "CGPA: 8.6",
     period: "2022 – 2026",
     location: "Chittoor, Andhra Pradesh",
     icon: <FaUniversity />,

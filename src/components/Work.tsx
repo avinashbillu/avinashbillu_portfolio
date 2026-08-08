@@ -16,6 +16,17 @@ const projects = [
     ],
   },
   {
+    title: "Food Delivery Application",
+    category: "Full-Stack Web App",
+    tools: "Java, JSP, Servlets, JDBC, MySQL",
+    image: `${import.meta.env.BASE_URL}images/Food-Delivery.png`,
+    description: [
+      "Built a full-stack food ordering platform using Java, JSP, Servlets, and JDBC on MVC architecture, covering user authentication, restaurant browsing, cart management, and real-time order tracking.",
+      "Integrated the Razorpay payment gateway alongside Cash-on-Delivery, handling payment responses and session management for a seamless, secure checkout flow.",
+      " Designed a normalized MySQL schema spanning 6 core entities (users, restaurants, menus, carts, orders, addresses) with optimized CRUD operations powering a dynamic JSP-based UI.",
+    ],
+  },        
+  {
     title: "Library Management System",
     category: "Web Application",
     tools: "HTML, CSS, JavaScript",

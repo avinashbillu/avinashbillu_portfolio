@@ -6,7 +6,13 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Computer Science Engineering student (2026) with skills in Java, Python, MySQL, HTML, CSS, and JavaScript. Currently a Java Full Stack Intern at Tap Academy, gaining hands-on experience in building scalable web applications. Passionate about problem-solving, clean code, and continuous learning, seeking opportunities to grow as a software developer.
+          I’m **Avinash Billu**, a Computer Science Engineering graduate
+          specializing in **Java Full-Stack Development**. I have hands-on
+          experience with **Java, Spring Boot, Hibernate, React.js, REST APIs,
+          MySQL, JavaScript, HTML, and CSS**, gained through my Java Full Stack
+          internship at Tap Academy. I’m passionate about **problem-solving,
+          writing clean and maintainable code, learning new technologies, and
+          building scalable, reliable web applications**.
         </p>
       </div>
     </div>

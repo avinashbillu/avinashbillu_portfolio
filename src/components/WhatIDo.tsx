@@ -90,9 +90,11 @@ const WhatIDo = () => {
               <h3>LANGUAGES</h3>
               <h4>Core Programming Skills</h4>
               <p>
-                Proficient in multiple programming languages, focusing on object-oriented programming principles and building logical, efficient code.
+                Strong foundation in programming with a focus on object-oriented
+                principles, problem-solving, and writing clean, efficient, and
+                maintainable code.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skills & Technologies</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Java</div>
                 <div className="what-tags">Python</div>
@@ -126,16 +128,22 @@ const WhatIDo = () => {
               <h3>FRAMEWORKS & TOOLS</h3>
               <h4>Libraries and Databases</h4>
               <p>
-                Experience with modern web development frameworks and essential version control systems for building responsive applications.
+                Hands-on experience with modern frameworks, databases, and
+                development tools for building scalable and maintainable web
+                applications.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skills & Technologies</h5>
               <div className="what-content-flex">
                 <div className="what-tags">SpringBoot</div>
+                <div className="what-tags">Hibernate</div>
                 <div className="what-tags">React.js</div>
+                <div className="what-tags">REST APIs</div>
                 <div className="what-tags">MySQL</div>
                 <div className="what-tags">Git</div>
                 <div className="what-tags">GitHub</div>
+                <div className="what-tags">Docker</div>
                 <div className="what-tags">VS Code</div>
+                <div className="what-tags">Eclipse</div>
               </div>
               <div className="what-arrow"></div>
             </div>

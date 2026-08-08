@@ -28,6 +28,7 @@ const Contact = () => {
             <a
               href="https://github.com/avinashbillu"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
@@ -36,6 +37,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/avinash-billu"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
@@ -44,6 +46,7 @@ const Contact = () => {
             <a
               href="https://x.com/Avinash01840342"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
@@ -52,6 +55,7 @@ const Contact = () => {
             <a
               href="https://www.instagram.com/avin_ash_.45/?hl=en"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >

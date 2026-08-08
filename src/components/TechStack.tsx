@@ -4,18 +4,28 @@ import {
   FaReact,
   FaCode,
   FaPaintBrush,
+  FaServer,
 } from "react-icons/fa";
-import { SiJavascript, SiMysql, SiSpringboot } from "react-icons/si";
+import {
+  SiJavascript,
+  SiMysql,
+  SiSpringboot,
+  SiDocker,
+  SiN8N,
+} from "react-icons/si";
 
 const techStack = [
   { name: "Java", icon: <FaJava /> },
+  { name: "React", icon: <FaReact /> },
+  { name: "Spring Boot", icon: <SiSpringboot /> },
   { name: "Python", icon: <FaPython /> },
   { name: "JavaScript", icon: <SiJavascript /> },
   { name: "MySQL", icon: <SiMysql /> },
   { name: "HTML", icon: <FaCode /> },
   { name: "CSS", icon: <FaPaintBrush /> },
-  { name: "React", icon: <FaReact /> },
-  { name: "Spring Boot", icon: <SiSpringboot /> },
+  { name: "Docker", icon: <SiDocker /> },
+  { name: "n8n", icon: <SiN8N /> },
+  { name: "Rest APIs", icon: <FaServer /> },
 ];
 
 const TechStack = () => {
