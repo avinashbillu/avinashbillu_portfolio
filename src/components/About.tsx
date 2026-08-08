@@ -10,7 +10,7 @@ const About = () => {
           specializing in Java Full-Stack Development. I have hands-on
           experience with Java, Spring Boot, Hibernate, React.js, REST APIs,
           MySQL, JavaScript, HTML, and CSS, gained through my Java Full Stack
-          internship at Tap Academy. I’m passionate about **problem-solving,
+          internship at Tap Academy. I’m passionate about problem-solving,
           writing clean and maintainable code, learning new technologies, and
           building scalable, reliable web applications.
         </p>
