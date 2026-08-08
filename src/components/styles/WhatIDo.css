@@ -52,7 +52,7 @@
 
 .what-noTouch:hover,
 .what-content-active {
-  min-height: 67%;
+  min-height: 78%;
   padding: 40px 50px;
 }
 
@@ -206,7 +206,21 @@
 }
 .what-content-in {
   height: 100%;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+.what-content-in::-webkit-scrollbar {
+  width: 6px;
+}
+.what-content-in::-webkit-scrollbar-track {
+  background: transparent;
+}
+.what-content-in::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
 }
 .what-content-in h5 {
   font-weight: 300;
@@ -302,7 +316,7 @@
   }
   .what-noTouch:hover,
   .what-content-active {
-    min-height: 67%;
+    min-height: 78%;
     padding: 50px;
   }
 
