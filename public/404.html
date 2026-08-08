@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Avinash Billu - Portfolio</title>
+    <script>
+      (function () {
+        var base = "/avinashbillu_portfolio/";
+        var path = window.location.pathname;
+        var hash = window.location.hash;
+        var query = window.location.search;
+        if (!path.startsWith(base)) {
+          window.location.replace(base + hash);
+        } else {
+          var remaining = path.slice(base.length);
+          window.location.replace(
+            base +
+              (remaining ? "?p=" + encodeURIComponent(remaining) : "") +
+              query +
+              hash
+          );
+        }
+      })();
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/avinashbillu_portfolio/" />
+    </noscript>
+  </head>
+  <body></body>
+</html>
